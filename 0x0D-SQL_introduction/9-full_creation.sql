@@ -1,5 +1,5 @@
--- script that creates second_table
-CREATE TABLE IF NOT EXISTS second_table
+-- script that creates second_table and add multiples rows
+CREATE TABLE IF NOT EXISTS second_table(
 id INT,
 name VARCHAR(256),
 score INT
